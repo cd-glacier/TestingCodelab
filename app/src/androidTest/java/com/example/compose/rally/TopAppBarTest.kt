@@ -26,7 +26,7 @@ class TopAppBarTest {
         composeTestRule.onRoot().printToLog("currentLabelExists")
 
         composeTestRule
-            .onNodeWithContentDescription(RallyScreen.Accounts.name.uppercase())
+            .onNodeWithContentDescription(RallyScreen.Accounts.name)
             .assertExists()
     }
 }
